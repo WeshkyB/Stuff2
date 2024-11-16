@@ -5,6 +5,6 @@ local response = syn.request({
         ['Content-Type'] = 'application/json'  -- Specifies the content type
     },
     Body = game:GetService('HttpService'):JSONEncode({
-        content = 'Someone Executed Weshky Auto Fatm Script!'  -- The message you want to send
+        content = 'Someone Executed My Candy Script!'  -- The message you want to send
     })
 })
